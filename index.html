@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Recipe
+    </title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">-->
+</head>
+
+<body>
+    <div class="header">
+        <div class="login">
+            <span>登入 / 註冊</span>
+        </div>
+        <div class="logo"></div>
+        <div class="search_group">
+            <form class="search">
+                <input type="text" placeholder="搜尋食譜或食材，以空格分開" class="search_box">
+                <button class="search_button"><img src="./img/magnifier.png" alt="Magnifier"></button>
+            </form>
+        </div>
+        <div class="button_div">
+            <button class="button">收藏食譜 ♡</button>
+            <button class="button">撰寫食譜 +</button>
+        </div>
+    </div>
+    <div class="body ">
+        <div class="meal ">
+            <div class="meal_img breakfast">
+                <img src="./img/breakfast.jpg" alt="Breakfast" class="meal_img">
+                <span class="meal_text">早餐</span>
+            </div>
+            <div class="meal_img lunch">
+                <img src="./img/lunch.jpg" alt="Lunch" class="meal_img">
+                <span class="meal_text">午餐</span>
+            </div>
+            <div class="meal_img dinner">
+                <img src="./img/dinner.jpg" alt="Dinner" class="meal_img">
+                <span class="meal_text">晚餐</span>
+            </div>
+            <div class="meal_img snack">
+                <img src="./img/snack.jpg" alt="Snack" class="meal_img">
+                <span class="meal_text">點心</spam>
+            </div>
+        </div>
+        <div class="body_content">
+            <div class="content_box">
+                <span class="content_title">每日精選</span>
+                <span id="more">看更多</span>
+                <div class="content_list">
+                    <div class="content_wrapper">
+                        <div class="content_img"></div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_box">
+                <span class="content_title">最新上架</span>
+                <span id="more">看更多</span>
+                <div class="content_list">
+                    <div class="content_wrapper">
+                        <div class="content_img"></div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_box">
+                <span class="content_title">熱門食譜</span>
+                <span id="more">看更多</span>
+                <div class="content_list">
+                    <div class="content_wrapper">
+                        <div class="content_img"></div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="content_img">
+                        </div>
+                        <div id=dish_name>食譜名稱</div>
+                        <div id=author>作者名</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_box content_list_box">
+                <span class="content_title" id="more_classification">更多分類</span>
+                <div class="list_big_wrapper">
+                    <ul class="list_box_wrapper" style="list-style-type:none">
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>節慶習俗</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>異國風情</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>烹調方式</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>甜點烘焙</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="list_box_wrapper" style="list-style-type:none">
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>主食</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>主食</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>主食</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                        <li id=list_size>
+                            <span id=tri>▽</span>
+                            <span id=list_title>主食</span>
+                            <ul class="list_content" style="list-style-type:none">
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                                <li id=list_text>新年</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="footer_box">
+            <ul class="footer_list_wrapper" style="list-style-type:none">
+                <li>關於我們
+                    <ul class="footer_list_content">
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                    </ul>
+                </li>
+                <li>食譜專區
+                    <ul class="footer_list_content">
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                    </ul>
+                </li>
+                <li>會員中心
+                    <ul class="footer_list_content">
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                        <li>> 公司資訊</li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="footer_btn" id=Facebook>
+                <img src="./img/icon_002.png" alt="Facebook">
+            </button>
+            <button class="footer_btn" id=Instagram>
+                <img src="./img/icon_001.png" alt="Instagram">
+            </button>
+            <button class="footer_btn" id=Twitter>
+                <img src="./img/icon_005.png" alt="Twitter">
+            </button>
+            <button class="footer_btn" id=suggestion>
+                <img src="./img/icon_004.png" alt="suggestion">
+                <span>問題與建議</span>
+            </button>
+            <div class="copyright">
+                Copyright © Cookpad Inc. 保留所有權利
+            </div>
+        </div>
+    </div>
+</body>
